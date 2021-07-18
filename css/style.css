@@ -7,21 +7,28 @@
   padding: 0;
 }
 
-.text {
+.bgimage {
 	background-size: 100% 100%;
 	width: 100%;
 	height: 100vh;
+
+		
 }
 
 .heading h3{
-	width: 40%;
+	
 	font-size: 40px;
 	text-align: center;
 	text-transform: uppercase;
   font-weight: bold;
   color: white;
-  margin-left: 20px;
   font-family: 'Dancing Script', cursive;
+  position: relative;
+  letter-spacing: 1px;
+  margin-left: 40px;
+  margin-top: 140px;
+  padding: 20px;
+  line-height: 50px;
 
 }
 
@@ -30,12 +37,13 @@
 	font-weight: bold;
 	font-size: 25px;
 	text-transform: uppercase;
-	margin-top: 20px;
+	margin-top: 10px;
 	line-height: 20px;
 	text-align: center;
 	position: relative;
 	font-family: 'Dancing Script', cursive;
 	letter-spacing: 1px;
+
 }
 
 .para h6{
@@ -54,13 +62,14 @@
 .menu{
 	width: 100%;
 	height: 70px;
-
+	background-color: white;
+	
 }
 
 .leftmenu{
 	width: 25%;
 	float: left;
-
+ 
 }
 
 .leftmenu h4{
@@ -102,8 +111,6 @@
 	height: 100px;
 }
 
-
-
 .projects h3{
 	text-transform: uppercase;
   border-bottom: 1px solid grey;
@@ -118,8 +125,8 @@
 }
 
 .row{
-
-	display: inline-grid;
+  display: inline-grid;
+	/*display: inline-grid;*/
 	width: 100%;
 	padding: 25px;
 	margin-left: 20px;
