@@ -79,27 +79,34 @@
 	line-height: 70px;
 	text-transform: uppercase;
 	font-weight: bold ;
+	
+	
 }
 
 .rightmenu{
 	width: 70%;
-	height: 100px;
 	float: right;
+	
+ 
 }
 
 .rightmenu ul{
-	margin-left: 450px ;
+	margin-left: 150px;
+	
+	float: right;
+
 }
 
 .rightmenu ul li{
 	color: black;
 	list-style: none;
-	display: inline-block;
 	font-size: 15px;
 	line-height: 70px;
-	margin-left: 40px;
+	margin-right: 40px;
   text-transform: uppercase;
   font-weight: bold;
+  float: right;
+
 }
 
 .rightmenu ul li:hover{
