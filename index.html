@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title></title>
+</head>
+<body>
+	<div class="bgimage">
+		<div class="menu">
+			<div class="leftmenu">
+				<h4>Architects</h4>
+			</div>
+			<div class="rightmenu">
+				<ul>
+					<li><a href="#project" style="color: black; text-decoration: none;">Projects</a></li>
+					<li> <a href="#about" style="color: black; text-decoration: none; ">About</a> </li>
+					<li><a href="" style="color: black; text-decoration: none;">Contact</a></li>
+				</ul>
+			</div>
+			
+		</div>
+		<div class="text" style="background-image: url('images/bg-img.jpeg');">
+			<br><br><br><br><br><br><br><br>
+
+			<div class="heading">
+				<h3>Art</h3>
+			</div>
+			<div class="para" style="width: 43%;">
+				<p>is something</p>
+				<p>that makes you breathe</p>
+				<p>with a different kind of </p>
+				<p>happiness.</p>
+				<h6>anni albers</h6>
+		    </div>
+		</div>
+        
+		
+	</div>
+
+	<div class="projects" id="project">
+		<h3>Projects</h3>	
+	</div>
+
+	<div class="row" style="display: flex;">
+	    <div class="col-md-3 m6">
+	      <div class="display-container">
+	        <div class="display-topleft">Hugh jackman</div>
+	        <img src="images/img11.png" alt="hugh jackman" style="width:100%">
+	        <button onclick="details(1)" id="view">View</button>
+	      </div>
+	    </div>
+	    <div class="col-md-3 m6">
+	      <div class="display-container">
+	        <div class="display-topleft">Charles Laveso</div>
+	        <img src="images/img5.jpg" alt="man with cigar" style="width:100%;">
+	        <button onclick="details(2)" id="view">View</button>
+	      </div>
+	    </div>
+	    <div class="col-md-3 m6">
+	      <div class="display-container">
+	        <div class="display-topleft">Puppy</div>
+	        <img src="images/img3.jpg" alt="dog" style="width:100%">
+	        <button onclick="details(3)" id="view">View</button>
+	      </div>
+	    </div>
+	    <div class="col-md-3 m6">
+	      <div class="display-container">
+	        <div class="display-topleft">Johnny Deep</div>
+	        <img src="images/img1.png" alt="johnny deep" style="width:100%;">
+	        <button onclick="details(4)" id="view">View</button>
+	      </div>
+	    </div>
+    </div>
+    
+    <br><br>
+
+  	<div class="row" style="">
+	    <div class="col-md-3 m6">
+	      <div class="display-container">
+	        <div class="display-topleft">Commission work</div>
+	        <img src="images/img12.png" alt="girl" style="width:100%">
+	        <button onclick="details(5)" id="view">View</button>
+	      </div>
+	    </div>
+	    <div class="col-md-3 m6">
+	      <div class="display-container">
+	        <div class="display-topleft">Jack Sparrow</div>
+	        <img src="images/img10.png" alt="jack sparrow" style="width:100%;">
+	        <button onclick="details(6)" id="view">View</button>
+	      </div>
+	    </div>
+	    <div class="col-md-3 m6">
+	      <div class="display-container">
+	        <div class="display-topleft">Commission work</div>
+	        <img src="images/img4.jpg" alt="kid" style="width:100%">
+	        <button onclick="details(7)" id="view">View</button>
+	      </div>
+	    </div>
+	    <div class="col-md-3 m6">
+	      <div class="display-container">
+	        <div class="display-topleft">Hyper realistic</div>
+	        <img src="images/img13.png" alt="kid" style="width:100%">
+	        <button onclick="details(8)" id="view">View</button>
+	      </div>
+	    </div>
+  	</div>
+
+  	<span class="details" id="1" style="display:none;">
+  		<div class="det" style="display: flex;">
+  			<div><img src="images/img11.png"></div>
+  			<div class="p">
+  				<p>This is the sketch</p>
+  				<button class="btn" onclick="off(1)">Back</button>
+  			</div>
+  	
+  		</div>
+	</span>
+
+	  <!-- About Section -->
+  <div class="aboutus" id="about">
+    <h3>About</h3><br>
+    <p>I am Nilesh Marathe. I am 22 years self taught artist. Drawing and sketching is my passion. I do commissioned work. I don't think this as a business. I love to draw. I am B.E. graduated. Currently running this small business. Your love and support makes all this possible. Keep supporting and loving. Thankyou! 
+    </p>
+  </div>
+
+
+
+</body>
+</html>
