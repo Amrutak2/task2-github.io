@@ -2,8 +2,8 @@
 
 
 *{
-  
-  margin: 0;
+  box-sizing: border-box;
+  margin: 0px;
   padding: 0;
 }
 
@@ -133,11 +133,9 @@
 
 .row{
   display: inline-grid;
-	/*display: inline-grid;*/
 	width: 100%;
 	padding: 25px;
 	margin-left: 20px;
-	position: relative;
 
 }
 
